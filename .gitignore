@@ -1,2 +1,5 @@
+.gitignore
 *.depend
 *.layout
+*.o
+*.exe
