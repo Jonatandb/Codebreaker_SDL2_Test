@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Codebreaker_SDL2_Test" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_compiler__configurado_para_sdl_2__jonatandb" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Codebreaker" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="bin/o" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_configurado_para_usar_sdl_2_-_jonatandb" />
+				<Option use_console_runner="0" />
+				<Option projectCompilerOptionsRelation="-1" />
+				<Option projectLinkerOptionsRelation="-1" />
+				<Option projectIncludeDirsRelation="-1" />
+				<Option projectResourceIncludeDirsRelation="-1" />
+				<Option projectLibDirsRelation="-1" />
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command=" &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Codebreaker" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="bin/o" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_configurado_para_usar_sdl_2_-_jonatandb" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="CFG.cpp" />
+		<Unit filename="Cabecera.h" />
+		<Unit filename="Carta.cpp" />
+		<Unit filename="Carta.h" />
+		<Unit filename="Globals.cpp" />
+		<Unit filename="Globals.h" />
+		<Unit filename="Mazo.cpp" />
+		<Unit filename="Mazo.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
